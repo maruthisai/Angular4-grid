@@ -1,0 +1,5 @@
+  <td *ngFor="let col of columns; last as isLast">
+    <div *ngIf="isLast" class="component-tag-sm">
+    </div>
+    {{character[col]}}
+  </td>
